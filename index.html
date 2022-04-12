@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Odia:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <title>Astronomy Picture os the Day</title>
+</head>
+
+<body>
+
+    <header>
+        <h1 id="title"> Astronomy Picture of the Day </h1>
+    </header>
+
+    <span>
+        <p id="text"> Each day a different image or photograph of our fascinating universe is featured, along with a
+            brief explanation written by a professional astronomer.</p>
+    </span>
+
+    <div id="parte-data">
+        <input type="date" min="1995-06-20" name="data" id="data">
+        <button id="submit" value="Pesquisar">Search</button>
+    </div>
+
+    <div id="principal">
+        <p class='imagem'></p>
+        <p class="titulo"></p>
+        <p class="explanation"></p>
+        <p class="copyright"></p>
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
